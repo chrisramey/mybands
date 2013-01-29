@@ -15,7 +15,10 @@ $f = fopen('../data/bands.csv','w');
 fwrite($f,$data_string);
 fclose($f);
 
-$_SESSION['message'] = 'Your band has been deleted.';
+$_SESSION['message'] = array(
+	'text' => 'Your band has been deleted.',
+	'type' => 'error'
+);
 
 header('Location:../?p=list_bands');
 

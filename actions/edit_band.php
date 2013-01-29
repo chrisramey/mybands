@@ -15,7 +15,10 @@ $f = fopen('../data/bands.csv','w');
 fwrite($f,$data_string);
 fclose($f);
 
-$_SESSION['message'] = 'Your band has been edited.';
+$_SESSION['message'] = array(
+	'text' => 'Your band has been edited.',
+	'type' => 'info'
+);
 
 header('Location:../?p=list_bands');
 
