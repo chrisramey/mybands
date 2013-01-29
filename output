@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<title>MyBands</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				
+			</header>
+			<nav>
+				<ul>
+	<li><a href="./">Home</a></li>
+	<li><a href="./?p=list_bands">Bands</a></li>
+	<li><a href="./?p=add_band">Add</a></li>
+</ul>
+			</nav>
+			<section role="main">
+				<h2>All Bands</h2>
+			</section>
+			<footer>
+				<p>Copyright &copy; 2013 Computer Topics</p>
+			</footer>
+		</div>
+	</body>
+</html>
